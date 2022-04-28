@@ -1,11 +1,7 @@
 def row_sum_odd_numbers(n):
-    lst = []
-    num = 1
-    next_num = num 
-    for i in range(1, n):
-        next_num += i
-        lst.append(next_num)
-    for i in range(len(lst)):
-        print(lst[i])
+    term = int(n * (n + 2)/2)
+    print(f'The {str(n)}th term is {str(term)}')
 
-row_sum_odd_numbers(1)
+num = input('Enter n value: ')
+
+row_sum_odd_numbers(num)
