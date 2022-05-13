@@ -27,6 +27,7 @@ def list_of_strings(answer):
         list.append(yes)
     else:
         list.append(no)
+    print(list)
 
 list_of_strings('y')
 list_of_strings('n')
