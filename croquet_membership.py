@@ -14,7 +14,7 @@ def open_or_senior(data):
         members.append('senior')
     else:
         members.append('open')
-    return members
+    print(members)
 
 
 open_or_senior([18, 20])
