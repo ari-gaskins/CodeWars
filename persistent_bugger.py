@@ -1,5 +1,4 @@
-def persistence(n):
-    # checks if 
+def persistence(n): 
     if str(n) == 1:
         return 0
     count = 0
