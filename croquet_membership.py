@@ -5,10 +5,10 @@
 def open_or_senior(data):
     for i in range(len(data)):
         members = data[i]
-    age = data[:1]
+    age = members[:1]
     for i in range(len(age)):
         age = age[i]
-    handicap = data[1:]
+    handicap = members[1:]
     for i in range(len(handicap)):
         handicap = handicap[i]
     if age >= 55 and handicap > 7:
