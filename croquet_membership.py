@@ -3,7 +3,8 @@
 # open is everyone not categorized as a senior
 
 def open_or_senior(data):
-    members = []
+    for i in range(len(data)):
+        members = data[i]
     age = data[:1]
     for i in range(len(age)):
         age = age[i]
