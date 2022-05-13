@@ -3,6 +3,7 @@
 # open is everyone not categorized as a senior
 
 def open_or_senior(data):
+    memberships = []
     for i in range(len(data)):
         members = data[i]
     age = members[:1]
@@ -12,10 +13,10 @@ def open_or_senior(data):
     for i in range(len(handicap)):
         handicap = handicap[i]
     if age >= 55 and handicap > 7:
-        members.append('senior')
+        memberships.append('senior')
     else:
-        members.append('open')
-    print(members)
+        memberships.append('open')
+    print(memberships)
 
 
 open_or_senior([[18, 20], [45, 2], [61, 12]])
