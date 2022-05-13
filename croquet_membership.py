@@ -16,11 +16,10 @@ def open_or_senior(data):
             memberships.append('Senior')
         else:
             memberships.append('Open')
-    print(memberships)
+    return memberships
 
 
-open_or_senior([[18, 20], [45, 2], [61, 12]])
-
+print(open_or_senior([[18, 20], [45, 2], [61, 12]]))
 
 #def list_of_strings(answer):
 #    list = []
