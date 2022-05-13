@@ -17,9 +17,8 @@ def open_or_senior(data):
     print(members)
 
 
-open_or_senior([18, 20])
-open_or_senior([45, 2])
-open_or_senior([61, 12])
+open_or_senior([[18, 20], [45, 2], [61, 12]])
+
 
 #def list_of_strings(answer):
 #    list = []
