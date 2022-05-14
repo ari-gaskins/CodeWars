@@ -16,7 +16,8 @@ def one_of_each(s1):
     str_list = sorted(str_list)
     print(str_list)
 
-
+one_of_each(a)
+one_of_each(b)
 
 #def string_to_list(s1):
 #    str_list = []
