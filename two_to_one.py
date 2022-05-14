@@ -3,17 +3,24 @@
 # with only one of each distinct letter
 # and sorted alphabetically
 
+a = "xyaabbbccccdefww"
+b = "xxxxyyyyabklmopq"
+
 def longest(s1, s2):
     return s1 + s2
 
 
-def string_to_list(s1):
+def one_of_each(s1):
     str_list = []
     str_list[:0] = s1
-    print(str_list)
+    str_list = sorted(str_list)
 
-a = "xyaabbbccccdefww"
-b = "xxxxyyyyabklmopq"
 
-string_to_list(a)
-string_to_list(b)
+
+#def string_to_list(s1):
+#    str_list = []
+#    str_list[:0] = s1
+#    print(str_list)
+
+#string_to_list(a)
+#string_to_list(b)
