@@ -5,7 +5,11 @@
 def make_negative(number):
     if number <= 0:
          print(number)
+    else:
+        print(-number)
 
 make_negative(0)
 make_negative(-1)
 make_negative(-2)
+make_negative(3)
+make_negative(4)
