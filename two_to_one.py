@@ -14,10 +14,11 @@ def one_of_each(s1):
     str_list = []
     str_list[:0] = s1
     str_list = sorted(str_list)
+    rev_list = []
     for i in str_list:
-        if i not in str_list:
-            str_list.append(i)
-    print(str_list)
+        if i not in rev_list:
+            rev_list.append(i)
+    print(rev_list)
 
 
 one_of_each(a)
