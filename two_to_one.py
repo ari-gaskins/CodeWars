@@ -7,12 +7,9 @@ a = "xyaabbbccccdefww"
 b = "xxxxyyyyabklmopq"
 
 def longest(s1, s2):
-    return s1 + s2
-
-
-def one_of_each(s1):
+    s3 = s1 + s2
     str_list = []
-    str_list[:0] = s1
+    str_list[:0] = s3
     str_list = sorted(str_list)
     rev_list = []
     for i in str_list:
@@ -20,9 +17,22 @@ def one_of_each(s1):
             rev_list.append(i)
     print(rev_list)
 
+longest(a, b)
 
-one_of_each(a)
-one_of_each(b)
+
+#def one_of_each(s1):
+#    str_list = []
+#    str_list[:0] = s1
+#    str_list = sorted(str_list)
+#    rev_list = []
+#    for i in str_list:
+#        if i not in rev_list:
+#            rev_list.append(i)
+#    print(rev_list)
+
+
+#one_of_each(a)
+#one_of_each(b)
 
 #def string_to_list(s1):
 #    str_list = []
