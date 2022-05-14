@@ -15,9 +15,10 @@ def longest(s1, s2):
     for i in str_list:
         if i not in rev_list:
             rev_list.append(i)
-    print(rev_list)
+    s = ''
+    return s.join(rev_list)
 
-longest(a, b)
+print(longest(a, b))
 
 
 #def one_of_each(s1):
