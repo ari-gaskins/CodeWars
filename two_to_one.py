@@ -18,7 +18,7 @@ def longest(s1, s2):
     s = ''
     return s.join(rev_list)
 
-print(longest(a, b))
+#print(longest(a, b))
 
 
 #def one_of_each(s1):
