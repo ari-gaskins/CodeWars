@@ -14,7 +14,7 @@ def one_of_each(s1):
     str_list = []
     str_list[:0] = s1
     str_list = sorted(str_list)
-    for i in range(len(str_list)):
+    for i in str_list:
         if i not in str_list:
             str_list.append(i)
     print(str_list)
