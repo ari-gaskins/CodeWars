@@ -19,6 +19,7 @@ def one_of_each(s1):
             pass
         else:
             str_list.pop(i)
+    print(str_list)
 
 
 one_of_each(a)
