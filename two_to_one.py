@@ -8,7 +8,8 @@ def longest(s1, s2):
 
 
 def string_to_list(s1):
-    str_list = list(s1.split(''))
+    str_list = []
+    str_list[:0] = s1
     print(str_list)
 
 a = "xyaabbbccccdefww"
