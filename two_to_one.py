@@ -16,9 +16,7 @@ def one_of_each(s1):
     str_list = sorted(str_list)
     for i in range(len(str_list)):
         if i not in str_list:
-            pass
-        else:
-            str_list.pop(i)
+            str_list.append(i)
     print(str_list)
 
 
