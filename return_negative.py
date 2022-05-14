@@ -4,7 +4,7 @@
 
 def make_negative(number):
     if number <= 0:
-        return number
+         print(number)
 
 make_negative(0)
 make_negative(-1)
