@@ -14,7 +14,12 @@ def one_of_each(s1):
     str_list = []
     str_list[:0] = s1
     str_list = sorted(str_list)
-    print(str_list)
+    for i in range(len(str_list)):
+        if str_list[i] not in str_list:
+            pass
+        else:
+            str_list.pop(i)
+
 
 one_of_each(a)
 one_of_each(b)
